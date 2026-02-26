@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>quantum-materials-simulation-research/quantum-monte-carlo — Estudos</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="./css/paleta_cores.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/nav_bar.css" />
+    <link rel="stylesheet" href="./css/pages.css" />
+    <link rel="stylesheet" href="./css/studies.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+</head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BS975FKGYZ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BS975FKGYZ');
+</script>
+
+<body>
+    <header class="navbar">
+        <div class="wrap">
+            <!-- Link extra à esquerda -->
+            <a class="repo-link" href="https://quantum-materials-simulation-research.github.io?utm_source=child_repo&utm_medium=navbar&utm_campaign=studies"
+                title="Repositório Central">⚛</a>
+
+            <div class="brand"><a href="./index.html">Homepage</a></div>
+            <nav class="nav">
+                <a href="./references.html">References</a>
+                <a href="./studies.html">Studies</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main-wide">
+        <div class="layout">
+            <aside class="sidebar">
+                <input id="q" class="search" placeholder="Filter notebooks..." />
+                <ul id="tree" class="tree"></ul>
+            </aside>
+            <section class="viewer">
+                <iframe id="viewer" src=""></iframe>
+            </section>
+        </div>
+    </main>
+
+    <!-- injeta a árvore apenas nesta página -->
+    <script>
+        window.TREE_DATA = {"type": "dir", "name": "src", "path": "", "children": [{"type": "dir", "name": "01_Classic", "path": "01_Classic", "children": [{"type": "file", "name": "0.MC-pi-estimation-classic.ipynb", "path": "01_Classic/0.MC-pi-estimation-classic.ipynb", "nb_html": "01_Classic/0.MC-pi-estimation-classic.html"}, {"type": "file", "name": "0.QMC-Clássico.ipynb", "path": "01_Classic/0.QMC-Clássico.ipynb", "nb_html": "01_Classic/0.QMC-Clássico.html"}, {"type": "file", "name": "1.QMC.ipynb", "path": "01_Classic/1.QMC.ipynb", "nb_html": "01_Classic/1.QMC.html"}, {"type": "file", "name": "2.VMC.ipynb", "path": "01_Classic/2.VMC.ipynb", "nb_html": "01_Classic/2.VMC.html"}, {"type": "file", "name": "3.DMC.ipynb", "path": "01_Classic/3.DMC.ipynb", "nb_html": "01_Classic/3.DMC.html"}, {"type": "file", "name": "4.Multidimentional.ipynb", "path": "01_Classic/4.Multidimentional.ipynb", "nb_html": "01_Classic/4.Multidimentional.html"}, {"type": "file", "name": "5.Neural-Quantum-State.ipynb", "path": "01_Classic/5.Neural-Quantum-State.ipynb", "nb_html": "01_Classic/5.Neural-Quantum-State.html"}, {"type": "file", "name": "6.IPMC.ipynb", "path": "01_Classic/6.IPMC.ipynb", "nb_html": "01_Classic/6.IPMC.html"}, {"type": "file", "name": "pi-estimation.ipynb", "path": "01_Classic/pi-estimation.ipynb", "nb_html": "01_Classic/pi-estimation.html"}]}, {"type": "dir", "name": "02_Quantum", "path": "02_Quantum", "children": [{"type": "file", "name": "0.MC-pi-estimation.ipynb", "path": "02_Quantum/0.MC-pi-estimation.ipynb", "nb_html": "02_Quantum/0.MC-pi-estimation.html"}, {"type": "file", "name": "1.QMC.ipynb", "path": "02_Quantum/1.QMC.ipynb", "nb_html": "02_Quantum/1.QMC.html"}, {"type": "file", "name": "2.VMC.ipynb", "path": "02_Quantum/2.VMC.ipynb", "nb_html": "02_Quantum/2.VMC.html"}, {"type": "file", "name": "3.DMC.ipynb", "path": "02_Quantum/3.DMC.ipynb", "nb_html": "02_Quantum/3.DMC.html"}, {"type": "file", "name": "4.Multidimentional.ipynb", "path": "02_Quantum/4.Multidimentional.ipynb", "nb_html": "02_Quantum/4.Multidimentional.html"}, {"type": "file", "name": "5.Neural-Quantum-State.ipynb", "path": "02_Quantum/5.Neural-Quantum-State.ipynb", "nb_html": "02_Quantum/5.Neural-Quantum-State.html"}, {"type": "file", "name": "6.IPMC.ipynb", "path": "02_Quantum/6.IPMC.ipynb", "nb_html": "02_Quantum/6.IPMC.html"}, {"type": "file", "name": "pi-estimation.ipynb", "path": "02_Quantum/pi-estimation.ipynb", "nb_html": "02_Quantum/pi-estimation.html"}]}]};
+    </script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
